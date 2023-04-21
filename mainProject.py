@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import *
 
 
-# Backend python functions code starts :
+                              # Backend python functions code starts :
 def is_valid(customer_account_number):
     try:
         customer_database = open("./database/Customer/customerDatabase.txt")
@@ -1409,4 +1409,4 @@ root = tk.Tk()
 top = welcomeScreen(root)
 root.mainloop()
 
-# Tkinter GUI code ends.
+#End
